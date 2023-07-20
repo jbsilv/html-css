@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Mídias em HTML5</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <h3>primeiro modo</h3>
+    <p>Vamos aprender como reproduzir áudios em HTML5</p>
+    <p>Musica Tsunami</p>
+    <audio src="midias/tsunami.mp3" controls></audio></br>
+    <p>Musica Tequila</p>
+    <audio src="midias/tequila.mp3" controls></audio>
+    <h3>Segundo modo</h3>
+    <p>Musica tequila</p>
+    <audio preload="metadata"  controls>
+        <source src="midias/tequila.mp3" type="audio/mpeg">
+        <source src="midias/tequila.ogg" type="audio/ogg">
+        <source src="midias/tequila.wav" type="audio/wav">
+    </audio>
+</body>
+</html>

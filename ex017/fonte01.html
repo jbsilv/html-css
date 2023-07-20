@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        body{
+            font-family:work sans;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+            
+            Medidas Relativas
+            em(relativo ao M maiusculo de uma fonte), ex(relativo a altura X de uma fonte), rem(referente a fonte configurada no body), vw(viewport), vh(altura da viewport), % 
+            Recomendado usar medidas segundo a w3c é px ou em.
+            tamanho normal da fonte =16px
+            16px geralmente = 1em
+            Melhor usar em
+            */
+            font-size: 1em;
+            /*
+            peso das fontes
+            lighter/ normal/ bold/ bolder
+            opçoes numericas de 100 a 900
+            */
+            font-weight:bold;
+        
+        }
+        h1{
+           /* font-family: work sans, sans-serif;
+            font-size: 3em;
+            font-style: italic;*/
+            /*
+            shorthand font
+            font-style-> font-weight-> font-size-> font-family
+            */
+            font: italic bolder 3em work sans, sans-serif;
+        }
+        h2{
+            font: bold 2em work sans;
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam pariatur consectetur ut porro reprehenderit praesentium nihil repudiandae excepturi culpa voluptate soluta modi a, eum officiis odio amet numquam ad minima.</p>
+    <h2>subtitulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, architecto commodi magni minus accusamus neque rem nulla, vero, pariatur optio distinctio delectus suscipit ullam! Culpa nulla eius molestias laboriosam minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo reiciendis, aperiam iure ab iusto eligendi molestias repellat harum, vitae tempora consequatur, fuga eius dolorum cumque amet numquam odit unde nobis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit a maxime maiores illo. Vero nam exercitationem quia delectus dolorem expedita quos, quasi vel minima id corporis veritatis? Reiciendis, debitis quia!</p>
+    <h2>subtitulo 2</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores perferendis delectus similique adipisci excepturi saepe tempore consectetur illum aliquam? Repellendus ut dignissimos explicabo natus! Cumque nisi deserunt eligendi dolore repellendus!</p>
+    <h2>subtitulo 3</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro earum maxime totam omnis corporis excepturi at nisi quidem, nemo expedita repellendus commodi ut dolorum soluta facilis ad dolorem, ducimus quam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora soluta placeat maxime totam qui voluptatibus in atque eum voluptas a quisquam, error facere! Enim eligendi deleniti nobis repellendus molestiae beatae.</p>
+
+</body>
+</html>

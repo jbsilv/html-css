@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos em HTML5</title>
+</head>
+<body>
+    <h1>Inserindo video hospedado localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <p>tag poster-- serve para colcoar a thumbnail no video</p>
+    <p>tag controls-- serve para aparecer os controles dos videos</p>
+    <p>tag muted-- pra o video iniciar mutado</p>
+    <p>tag autoplay-- pro video rodar automatico</p>
+    <video width="500" poster="imagens/1528082898_mortya4.jpg" muted autoplay loop controls>
+        <source src="midia/limoes.mp4" type="video/mp4">
+        <source src="midia/limoes.m4v" type="video/mp4">
+        <source src="midia/limoes.webm" type="video/webm">
+        <source src="midia/limoes.obb" type="video/obb">
+        <p>Seu navegador não tem compatibilidade</p>
+    </video>
+    <h1>Video incorporado do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/r9ZZ-XXirpo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h1>Video Incorporado do vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/426090404?h=c59275c02e&title=0&byline=0&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
